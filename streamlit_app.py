@@ -135,14 +135,10 @@ st.text_area("Your Text:", height=200)
 ''
 ''
 
-''
-''
+
 
 st.markdown("## ✍️ Challange to economy moat")  
 st.text_area("Your Text:", height=200)  
-
-''
-''
 
 ''
 ''
