@@ -129,6 +129,22 @@ st.line_chart(
 ''
 ''
 
+
+st.markdown("## ✍️ FINRA Margin Debt")  
+st.text_area("Your Text:", height=200)  
+
+''
+''
+
+
+
+st.markdown("## ✍️ VIX volatility")  
+st.text_area("Your Text:", height=200)  
+
+''
+''
+
+
 st.markdown("## ✍️ Suspicion to management integrity")  
 st.text_area("Your Text:", height=200)  
 
