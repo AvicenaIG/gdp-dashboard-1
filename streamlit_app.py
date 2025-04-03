@@ -130,6 +130,12 @@ st.line_chart(
 ''
 ''
 
+st.markdown("## ✍️ Enter Your Text Below")  
+st.text_area("Your Text:", height=200)  
+
+''
+''
+
 first_year = gdp_df[gdp_df['Year'] == from_year]
 last_year = gdp_df[gdp_df['Year'] == to_year]
 
