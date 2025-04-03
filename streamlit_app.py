@@ -119,6 +119,16 @@ st.line_chart(
 ''
 ''
 
+st.line_chart(
+    filtered_gdp_df,
+    x='Year',
+    y='GDP',
+    color='Country Code',
+)
+
+
+''
+''
 
 first_year = gdp_df[gdp_df['Year'] == from_year]
 last_year = gdp_df[gdp_df['Year'] == to_year]
