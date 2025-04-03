@@ -148,6 +148,14 @@ st.text_area("Your Text:", height=200)
 
 ''
 ''
+st.markdown("## ✍️ Bitcoin")  
+st.text_area("Your Text:", height=200)  
+
+st.html(
+    "<p><span style='text-decoration: line-through double red;'>Oops</span>!</p>"
+)
+''
+''
 
 first_year = gdp_df[gdp_df['Year'] == from_year]
 last_year = gdp_df[gdp_df['Year'] == to_year]
